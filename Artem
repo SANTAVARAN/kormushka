@@ -1,1 +1,44 @@
-
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+int a=0;
+int b=0;
+int c=0;
+int u=0;
+int nod=0;
+cin>>a;
+cin>>b;
+while(a!=0){
+ if(a==b)
+ {
+ nod=b;
+ break;
+ }
+ else
+ {
+ if(a>b)
+ {
+ a-b=c;
+ }
+ else
+ {
+ a=u;
+ b=a;
+ u=b;
+ }
+ if(c=0)
+ {
+ nod=b;
+ break;
+ }
+ else
+ {
+ b=c;
+ a=b;
+ 
+ }
+ }
+  }
+}
